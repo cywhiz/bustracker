@@ -1,0 +1,65 @@
+body,
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Open Sans';
+    background-color: #020167;
+    color: white;
+    overflow-y: scroll;
+}
+
+div.ui-datepicker {
+    font-size: 14px;
+}
+
+#country,
+#dates,
+#cities,
+#loading {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#canada,
+#us,
+#uk {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
+
+#canada:hover,
+#us:hover,
+#uk:hover {
+    box-shadow: 0 0 50px yellow;
+    border-radius: 100%;
+}
+
+.btn {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.logo {
+    width: 90%;
+}
+
+.loadingImg {
+    display: block;
+    margin: 0 auto;
+}
+
+.loadingText {
+    font-size: 8vw;
+}
+
+@media (min-width: 768px) {
+    .loadingText {
+        font-size: 4vw;
+    }
+}
